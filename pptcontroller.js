@@ -3,7 +3,7 @@
 let ss = require('slideshow');
 let slideshow = new ss("powerpoint");
 
-let pptfilename = 'sample.pptx';
+let pptfilename = 'biostrinidad.pptx';
 
 slideshow.boot()
 .then(function () { slideshow.open(pptfilename) })
